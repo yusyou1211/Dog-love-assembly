@@ -4,7 +4,7 @@
 ## サイト概要
 
 ### サイトテーマ
-自分の好きなワンちゃんを発信し、犬好きと交流を深められるSNSサイト
+犬好きと交流を深め、繋がるSNSサイト
 
 ### URL
 http://3.115.177.12/
@@ -76,14 +76,6 @@ https://docs.google.com/spreadsheets/d/1GZ-l8WKwF1SVCI2KKpGcSZs_abfvy-0lkaQheXM_
 - net-imap
 - mini_magick
 
-## インストール
-~~~
-$ git clone git@github.com:TAKAMURAFUMIHITO/Dogs.git
-$ cd Dogs
-$ rails db:migrate
-$ rails db:seed
-$ bundle install
-~~~
 
 ## こだわりポイント
 - オリジナルのロゴ
@@ -108,6 +100,3 @@ $ bundle install
 2. ログイン後、投稿一覧に遷移します。
 3. 不適切な投稿やコメントを削除することができます。
 4. 会員一覧から会員の編集ボタンを押下すると、会員の退会ステータスが更新することができます。
-
-## 作成者
-髙村文仁
