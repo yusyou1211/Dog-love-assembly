@@ -16,6 +16,8 @@ import "../stylesheets/application";
 import '@fortawesome/fontawesome-free/js/all';
 window.$ = window.jQuery = require('jquery');
 
+require('bootstrap/dist/js/bootstrap.min.js');
+
 Rails.start();
 Turbolinks.start();
 ActiveStorage.start();
