@@ -8,8 +8,8 @@
 Admin.create!(
    [
     {
-      email: 'test1@test.com',
-      password:'123456'
+      email: 'admin@admin',
+      password:'Yuya1211'
     },
     {
       email: 'yuya8382718@gmail.com',
