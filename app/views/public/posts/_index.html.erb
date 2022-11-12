@@ -24,6 +24,8 @@
     <% end %>
     <p class="card-text"><%= post.body.truncate(50) %></p>  <!--50字まで表示-->
   </div>
+  <div class="mt-5 mb-5" id="comment_area"><%= render "public/comments/comments", post: post, comment: Comment.new %></div>
+
   <div class="card-footer">
     <%= render 'public/posts/time', post: post %>
   </div>

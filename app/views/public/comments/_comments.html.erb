@@ -1,7 +1,7 @@
-<div class="comment"><%= flash[:comment] %></div>
+<div class="comment" styke="width: 100%;"><%= flash[:comment] %></div>
 <%= form_with(model: [post, Comment.new], local: false) do |f| %>
   <div class="comment">
-    <%= f.text_area :comment, :size => "60x1", placeholder: "コメント入力" %>
+    <%= f.text_area :comment, :size => "60x1", placeholder: "コメント入力", style: "width: 100%;" %>
   </div>
   <div class="comment mb-3">
     <%= f.submit "コメントする", class: "btn btn-outline-primary" %>※100字まで
