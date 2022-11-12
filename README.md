@@ -84,8 +84,7 @@ $ bundle install
 ~~~
 
 ## こだわりポイント
-- オリジナルのロゴ
-![Dogs-logo](https://user-images.githubusercontent.com/108682238/197972840-66479a9e-ea6f-449e-bf68-43a01c500f5b.png)
+
 - ワンちゃんをモチーフにした背景や、ひと目見て直感で分かるシンプルなレイアウト
 - 複数の画像が投稿・編集でき、スライド機能を付与
 
